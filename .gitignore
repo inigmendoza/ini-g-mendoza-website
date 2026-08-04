@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - Inî G Mendoza</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">Inî G Mendoza</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">About</a></li>
+                <li><a href="publications.html" class="active">Publications</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="volunteer.html">Bio & Volunteer</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="page-header">
+            <div class="container"><h1>Publications</h1><p>Research articles, book chapters, and educational materials</p></div>
+        </section>
+        <section class="publications-list">
+            <div class="container">
+                <div class="publication-item">
+                    <h3>Title of Your Publication</h3>
+                    <p class="pub-meta">Journal of Linguistic Anthropology, 2024</p>
+                    <p class="pub-abstract">Brief description of your research paper, its findings, and significance to the field of Mixtec linguistics and Indigenous language revitalization.</p>
+                    <div class="pub-links"><a href="#" class="btn-small">Read Paper</a><a href="#" class="btn-small btn-outline">Download PDF</a></div>
+                </div>
+                <div class="publication-item">
+                    <h3>Mixtec Language Documentation: Methods and Approaches</h3>
+                    <p class="pub-meta">Language Documentation & Conservation, 2023</p>
+                    <p class="pub-abstract">An examination of collaborative methodologies in documenting Mixtec linguistic varieties, emphasizing community involvement and ethical research practices.</p>
+                    <div class="pub-links"><a href="#" class="btn-small">Read Paper</a><a href="#" class="btn-small btn-outline">Download PDF</a></div>
+                </div>
+                <div class="publication-item">
+                    <h3>Indigenous Language Education in the 21st Century</h3>
+                    <p class="pub-meta">Book Chapter in "Indigenous Languages in Education", 2023</p>
+                    <p class="pub-abstract">A critical analysis of current approaches to Indigenous language education and proposals for community-centered pedagogical frameworks.</p>
+                    <div class="pub-links"><a href="#" class="btn-small">Read Paper</a><a href="#" class="btn-small btn-outline">Download PDF</a></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Inî G Mendoza. All rights reserved.</p>
+                <div class="footer-links"><a href="contact.html">Contact</a><a href="#">Twitter</a><a href="#">Google Scholar</a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

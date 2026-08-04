@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Inî G Mendoza</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">Inî G Mendoza</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">About</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="volunteer.html">Bio & Volunteer</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Me</h1>
+                <p>Let's collaborate! I welcome inquiries about research partnerships, speaking engagements, and community projects.</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Get in Touch</h2>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <span class="icon">✉️</span>
+                                <div>
+                                    <h3>Email</h3>
+                                    <p>inig.mendoza@email.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <span class="icon">🔗</span>
+                                <div>
+                                    <h3>Academic Profiles</h3>
+                                    <p><a href="#">Google Scholar</a></p>
+                                    <p><a href="#">ResearchGate</a></p>
+                                    <p><a href="#">ORCID</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <span class="icon">🐦</span>
+                                <div>
+                                    <h3>Social Media</h3>
+                                    <p><a href="#">Twitter/X</a></p>
+                                    <p><a href="#">LinkedIn</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h2>Send a Message</h2>
+                        <form id="contactForm" action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject">
+                                    <option value="">Select a topic...</option>
+                                    <option value="research">Research Collaboration</option>
+                                    <option value="speaking">Speaking Engagement</option>
+                                    <option value="community">Community Project</option>
+                                    <option value="resources">Resources Inquiry</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Inî G Mendoza. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="contact.html">Contact</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Google Scholar</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
